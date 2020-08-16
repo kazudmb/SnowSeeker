@@ -13,6 +13,12 @@
 		AEC6F0A724E7633000BE909A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC6F0A624E7633000BE909A /* Assets.xcassets */; };
 		AEC6F0AA24E7633000BE909A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC6F0A924E7633000BE909A /* Preview Assets.xcassets */; };
 		AEC6F0AD24E7633000BE909A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC6F0AB24E7633000BE909A /* LaunchScreen.storyboard */; };
+		AEE2D9F524E9735500A5A36F /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = AEE2D9F424E9735400A5A36F /* resorts.json */; };
+		AEE2D9F724E9736900A5A36F /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2D9F624E9736900A5A36F /* Resort.swift */; };
+		AEE2D9F924E9741600A5A36F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2D9F824E9741600A5A36F /* Bundle-Decodable.swift */; };
+		AEE2D9FB24E977E400A5A36F /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2D9FA24E977E400A5A36F /* ResortView.swift */; };
+		AEE2D9FD24E9788C00A5A36F /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2D9FC24E9788C00A5A36F /* SkiDetailsView.swift */; };
+		AEE2D9FF24E978E100A5A36F /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2D9FE24E978E100A5A36F /* ResortDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AEC6F0A924E7633000BE909A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEC6F0AC24E7633000BE909A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC6F0AE24E7633000BE909A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE2D9F424E9735400A5A36F /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		AEE2D9F624E9736900A5A36F /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		AEE2D9F824E9741600A5A36F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		AEE2D9FA24E977E400A5A36F /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		AEE2D9FC24E9788C00A5A36F /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		AEE2D9FE24E978E100A5A36F /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				AEC6F0A024E7632F00BE909A /* AppDelegate.swift */,
 				AEC6F0A224E7632F00BE909A /* SceneDelegate.swift */,
 				AEC6F0A424E7632F00BE909A /* ContentView.swift */,
+				AEE2D9FA24E977E400A5A36F /* ResortView.swift */,
+				AEE2D9FC24E9788C00A5A36F /* SkiDetailsView.swift */,
+				AEE2D9FE24E978E100A5A36F /* ResortDetailsView.swift */,
+				AEE2D9F624E9736900A5A36F /* Resort.swift */,
+				AEE2D9F824E9741600A5A36F /* Bundle-Decodable.swift */,
+				AEE2D9F424E9735400A5A36F /* resorts.json */,
 				AEC6F0A624E7633000BE909A /* Assets.xcassets */,
 				AEC6F0AB24E7633000BE909A /* LaunchScreen.storyboard */,
 				AEC6F0AE24E7633000BE909A /* Info.plist */,
@@ -135,6 +153,7 @@
 			files = (
 				AEC6F0AD24E7633000BE909A /* LaunchScreen.storyboard in Resources */,
 				AEC6F0AA24E7633000BE909A /* Preview Assets.xcassets in Resources */,
+				AEE2D9F524E9735500A5A36F /* resorts.json in Resources */,
 				AEC6F0A724E7633000BE909A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC6F0A124E7632F00BE909A /* AppDelegate.swift in Sources */,
+				AEE2D9FD24E9788C00A5A36F /* SkiDetailsView.swift in Sources */,
+				AEE2D9FF24E978E100A5A36F /* ResortDetailsView.swift in Sources */,
 				AEC6F0A324E7632F00BE909A /* SceneDelegate.swift in Sources */,
+				AEE2D9F924E9741600A5A36F /* Bundle-Decodable.swift in Sources */,
+				AEE2D9FB24E977E400A5A36F /* ResortView.swift in Sources */,
+				AEE2D9F724E9736900A5A36F /* Resort.swift in Sources */,
 				AEC6F0A524E7632F00BE909A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
